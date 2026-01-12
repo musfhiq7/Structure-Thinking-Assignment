@@ -97,8 +97,64 @@ nav .btn {
 }
 .btn2{
     background: transparent;
+    color: white;
 }
 .btn1{
     background-color: #30B868;
     color: white;
+}
+.note-container .heading{
+    width: 1360px;
+    height: 153px;
+    margin-right: 120px;
+    margin-left: 120px;
+   
+}
+.heading h1{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+.heading p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.card-box{
+    width: 1360px;
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.card{
+    width: 322px;
+    height: 300px;
+    text-align: center;
+}
+.card h4{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.card .p{
+   font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.card img{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    
+   /* border-width: 60px; */
+   /* border: 2px; */
+   padding: 10px;
+  border-radius: 80px;
 }

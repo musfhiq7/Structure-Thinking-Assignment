@@ -98,10 +98,16 @@ nav .btn {
 .btn2{
     background: transparent;
     color: white;
+    vertical-align: middle;
+   
+    
 }
 .btn1{
     background-color: #30B868;
     color: white;
+}
+.banner-container .btn1 img{
+    vertical-align: middle;
 }
 
 .note-container .heading{
@@ -266,5 +272,40 @@ vertical-align: middle;
 #think .btn img{
     vertical-align: middle;
 }
-
-
+#thinkfoot{
+    background-color: #001931;
+     width: 1600px;
+    height: 348px;
+    
+}
+.think-container{
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 120px 120px 80px 120px;
+}
+#thinkfoot p{
+color: white;
+text-align: center;
+}
+#thinkfoot .social h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+#thinkfoot .social .logo{
+    color: white;
+gap: 2px;
+width: 92px;
+height: 20px;
+border: 4em;
+}
+#thinkfoot p{
+    font-size: 16px;
+    width: 400;
+}
+#thinkfoot image{
+    width: 139px;
+    height: 60px;
+}
